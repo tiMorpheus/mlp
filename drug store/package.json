@@ -1,0 +1,16 @@
+{
+  "name": "drug_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.1",
+    "gil": "^1.0.3",
+    "gulp-sass": "^2.3.2"
+  }
+}
