@@ -29,24 +29,24 @@
     <favorites_list name="Abra software" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38557434">
+    <splitter split-orientation="horizontal" split-proportion="0.4981385">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/drug store/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="371">
-                  <caret line="429" column="72" selection-start-line="429" selection-start-column="58" selection-end-line="429" selection-end-column="72" />
+                <state relative-caret-position="330">
+                  <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
                   <folding>
                     <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#20742#20749#0" expanded="true" />
-                    <element signature="e#21474#21481#0" expanded="true" />
-                    <element signature="e#22206#22213#0" expanded="true" />
-                    <element signature="e#23550#23556#1" expanded="true" />
-                    <element signature="e#23639#23645#1" expanded="true" />
-                    <element signature="e#23724#23730#1" expanded="true" />
-                    <element signature="e#23809#23815#1" expanded="true" />
-                    <element signature="e#24040#24046#0" expanded="true" />
+                    <element signature="e#20769#20776#0" expanded="true" />
+                    <element signature="e#21501#21508#0" expanded="true" />
+                    <element signature="e#22233#22240#0" expanded="true" />
+                    <element signature="e#23577#23583#1" expanded="true" />
+                    <element signature="e#23666#23672#1" expanded="true" />
+                    <element signature="e#23751#23757#1" expanded="true" />
+                    <element signature="e#23836#23842#1" expanded="true" />
+                    <element signature="e#24067#24073#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -69,8 +69,8 @@
           <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/drug store/app/scss/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="479">
-                  <caret line="933" column="32" selection-start-line="933" selection-start-column="32" selection-end-line="933" selection-end-column="32" />
+                <state relative-caret-position="418">
+                  <caret line="895" column="14" selection-start-line="895" selection-start-column="14" selection-end-line="895" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +79,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/drug store/app/scss/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1014" column="0" selection-start-line="1014" selection-start-column="0" selection-end-line="1014" selection-end-column="0" />
+                <state relative-caret-position="168">
+                  <caret line="1043" column="0" selection-start-line="1043" selection-start-column="0" selection-end-line="1043" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -127,8 +127,8 @@
         <option value="$PROJECT_DIR$/drug store/app/css/sidebar.css" />
         <option value="$PROJECT_DIR$/drug store/app/js/common.js" />
         <option value="$PROJECT_DIR$/drug store/app/css/bootstrap-theme.css" />
-        <option value="$PROJECT_DIR$/drug store/app/index.html" />
         <option value="$PROJECT_DIR$/drug store/app/scss/style.css" />
+        <option value="$PROJECT_DIR$/drug store/app/index.html" />
         <option value="$PROJECT_DIR$/drug store/app/scss/style.scss" />
       </list>
     </option>
@@ -174,100 +174,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="My little projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -363,18 +270,18 @@
       <workItem from="1479644750669" duration="10844000" />
       <workItem from="1479655975763" duration="1516000" />
       <workItem from="1479742047444" duration="20918000" />
-      <workItem from="1479919455423" duration="5956000" />
+      <workItem from="1479919455423" duration="8238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57958000" />
+    <option name="totallyTimeSpent" value="60240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16381235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16381235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -414,14 +321,14 @@
           <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20742#20749#0" expanded="true" />
-            <element signature="e#21474#21481#0" expanded="true" />
-            <element signature="e#22206#22213#0" expanded="true" />
-            <element signature="e#23550#23556#1" expanded="true" />
-            <element signature="e#23639#23645#1" expanded="true" />
-            <element signature="e#23724#23730#1" expanded="true" />
-            <element signature="e#23809#23815#1" expanded="true" />
-            <element signature="e#24040#24046#0" expanded="true" />
+            <element signature="e#20769#20776#0" expanded="true" />
+            <element signature="e#21501#21508#0" expanded="true" />
+            <element signature="e#22233#22240#0" expanded="true" />
+            <element signature="e#23577#23583#1" expanded="true" />
+            <element signature="e#23666#23672#1" expanded="true" />
+            <element signature="e#23751#23757#1" expanded="true" />
+            <element signature="e#23836#23842#1" expanded="true" />
+            <element signature="e#24067#24073#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,14 +381,14 @@
           <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20742#20749#0" expanded="true" />
-            <element signature="e#21474#21481#0" expanded="true" />
-            <element signature="e#22206#22213#0" expanded="true" />
-            <element signature="e#23550#23556#1" expanded="true" />
-            <element signature="e#23639#23645#1" expanded="true" />
-            <element signature="e#23724#23730#1" expanded="true" />
-            <element signature="e#23809#23815#1" expanded="true" />
-            <element signature="e#24040#24046#0" expanded="true" />
+            <element signature="e#20769#20776#0" expanded="true" />
+            <element signature="e#21501#21508#0" expanded="true" />
+            <element signature="e#22233#22240#0" expanded="true" />
+            <element signature="e#23577#23583#1" expanded="true" />
+            <element signature="e#23666#23672#1" expanded="true" />
+            <element signature="e#23751#23757#1" expanded="true" />
+            <element signature="e#23836#23842#1" expanded="true" />
+            <element signature="e#24067#24073#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,14 +415,14 @@
           <caret line="75" column="4" selection-start-line="75" selection-start-column="0" selection-end-line="82" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20742#20749#0" expanded="true" />
-            <element signature="e#21474#21481#0" expanded="true" />
-            <element signature="e#22206#22213#0" expanded="true" />
-            <element signature="e#23550#23556#1" expanded="true" />
-            <element signature="e#23639#23645#1" expanded="true" />
-            <element signature="e#23724#23730#1" expanded="true" />
-            <element signature="e#23809#23815#1" expanded="true" />
-            <element signature="e#24040#24046#0" expanded="true" />
+            <element signature="e#20769#20776#0" expanded="true" />
+            <element signature="e#21501#21508#0" expanded="true" />
+            <element signature="e#22233#22240#0" expanded="true" />
+            <element signature="e#23577#23583#1" expanded="true" />
+            <element signature="e#23666#23672#1" expanded="true" />
+            <element signature="e#23751#23757#1" expanded="true" />
+            <element signature="e#23836#23842#1" expanded="true" />
+            <element signature="e#24067#24073#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,14 +449,14 @@
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20742#20749#0" expanded="true" />
-            <element signature="e#21474#21481#0" expanded="true" />
-            <element signature="e#22206#22213#0" expanded="true" />
-            <element signature="e#23550#23556#1" expanded="true" />
-            <element signature="e#23639#23645#1" expanded="true" />
-            <element signature="e#23724#23730#1" expanded="true" />
-            <element signature="e#23809#23815#1" expanded="true" />
-            <element signature="e#24040#24046#0" expanded="true" />
+            <element signature="e#20769#20776#0" expanded="true" />
+            <element signature="e#21501#21508#0" expanded="true" />
+            <element signature="e#22233#22240#0" expanded="true" />
+            <element signature="e#23577#23583#1" expanded="true" />
+            <element signature="e#23666#23672#1" expanded="true" />
+            <element signature="e#23751#23757#1" expanded="true" />
+            <element signature="e#23836#23842#1" expanded="true" />
+            <element signature="e#24067#24073#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,41 +585,41 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drug store/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="429" column="72" selection-start-line="429" selection-start-column="58" selection-end-line="429" selection-end-column="72" />
+        <state relative-caret-position="330">
+          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20742#20749#0" expanded="true" />
-            <element signature="e#21474#21481#0" expanded="true" />
-            <element signature="e#22206#22213#0" expanded="true" />
-            <element signature="e#23550#23556#1" expanded="true" />
-            <element signature="e#23639#23645#1" expanded="true" />
-            <element signature="e#23724#23730#1" expanded="true" />
-            <element signature="e#23809#23815#1" expanded="true" />
-            <element signature="e#24040#24046#0" expanded="true" />
+            <element signature="e#20769#20776#0" expanded="true" />
+            <element signature="e#21501#21508#0" expanded="true" />
+            <element signature="e#22233#22240#0" expanded="true" />
+            <element signature="e#23577#23583#1" expanded="true" />
+            <element signature="e#23666#23672#1" expanded="true" />
+            <element signature="e#23751#23757#1" expanded="true" />
+            <element signature="e#23836#23842#1" expanded="true" />
+            <element signature="e#24067#24073#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drug store/app/scss/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1014" column="0" selection-start-line="1014" selection-start-column="0" selection-end-line="1014" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="1043" column="0" selection-start-line="1043" selection-start-column="0" selection-end-line="1043" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drug store/app/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="933" column="32" selection-start-line="933" selection-start-column="32" selection-end-line="933" selection-end-column="32" />
+        <state relative-caret-position="418">
+          <caret line="895" column="14" selection-start-line="895" selection-start-column="14" selection-end-line="895" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -186,6 +186,19 @@ input[type="radio"]:checked + label::before{
   background-color: #e8ecf2;
 }
 
+@media screen and (max-width: 1199px){
+  .h-nav{
+    padding: 10px;
+
+    a{
+      margin-right: 10px;
+      font-size: 12px;
+    }
+  }
+}
+
+
+
 /*HEADER_BOTTOM*/
 .header-bottom {
   background: #fff;
@@ -528,6 +541,35 @@ input[type="radio"]:checked + label::before{
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .panel{
+    .btn-menu
+    &-menu{
+      width:260px;
+
+      a{
+        font-size:12px;
+      }
+    }
+
+    .btn{
+      padding: 14px;
+      font-size: 13px;
+    }
+  }
+
+  .btn-basket{
+    padding-right:14px !important;
+  }
+
+  .sp{
+    width:255px;
+  }
+
+
+}
+
+
 /*---Content----*/
 
 .content {
@@ -841,6 +883,18 @@ input[type="radio"]:checked + label::before{
   width: 36px;
   margin-right: 20px;
   background: url("../img/gift.png") no-repeat;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .subscription-title{
+    font-size: 16px;
+  }
+
+  .subscription{
+    width:auto;
+    min-width:210px;
+  }
 }
 
 

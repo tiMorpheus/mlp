@@ -140,6 +140,13 @@ input[type="radio"]:checked + label::before {
   border-left: 1px solid;
   background-color: #e8ecf2; }
 
+@media screen and (max-width: 1199px) {
+  .h-nav {
+    padding: 10px; }
+    .h-nav a {
+      margin-right: 10px;
+      font-size: 12px; } }
+
 /*HEADER_BOTTOM*/
 .header-bottom {
   background: #fff;
@@ -395,6 +402,21 @@ input[type="radio"]:checked + label::before {
     right: -16px;
     border-left: 20px solid #c00b0f; }
 
+@media screen and (max-width: 1199px) {
+  .btn-menu
+.panel-menu {
+    width: 260px; }
+    .btn-menu
+.panel-menu a {
+      font-size: 12px; }
+  .panel .btn {
+    padding: 14px;
+    font-size: 13px; }
+  .btn-basket {
+    padding-right: 14px !important; }
+  .sp {
+    width: 255px; } }
+
 /*---Content----*/
 .product-wrap {
   border: 1px solid #dcdcdc;
@@ -618,6 +640,13 @@ input[type="radio"]:checked + label::before {
   width: 36px;
   margin-right: 20px;
   background: url("../img/gift.png") no-repeat; }
+
+@media screen and (max-width: 1199px) {
+  .subscription-title {
+    font-size: 16px; }
+  .subscription {
+    width: auto;
+    min-width: 210px; } }
 
 .footer-top {
   padding: 65px 0 45px;
