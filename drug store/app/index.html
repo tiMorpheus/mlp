@@ -39,8 +39,8 @@
                             <a href="#">Доставка и оплата</a>
                         </nav>
                         <nav class="h-nav pull-right">
-                            <a href="#"><i class="ic-time"></i> Проверить заказ</a>
-                            <a href="#"><i class="ic-user"></i> Личный кабинет</a>
+                            <a href="#"><i class="ic-time"></i><span class="hidden-xss">Проверить заказ</span></a>
+                            <a href="#"><i class="ic-user"></i><span class="hidden-xss">Личный кабинет</span></a>
                         </nav>
                     </div>
                 </div>
@@ -48,18 +48,20 @@
             <div class="header-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-3 col-xs-4">
+                        <div class="col-lg-3 col-md-4 col-sm-3 col-xs-4 col-xss-6">
                             <div class="logo">
-                                <a href="/"><img src="img/logo.png" height="59" width="238" alt=""></a>
+                                <a href="#"><img src="img/logo.png" height="59" width="238" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6">
+                        <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 col-xss-3">
                             <form action="#" id="h-search">
                                 <input type="text" value="Поиск по сайту"/>
                                 <input type="submit" value="" />
+                                <a href="#" class="h-search__close">x</a>
                             </form>
+                            <a href="#" class="h-search__link">&nbsp;</a>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-2">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-2 col-xss-3">
                             <div class="dropdown h-phone">
                               <a data-toggle="dropdown" href="#">
                                   <small>Бесплатно по всей России</small>
@@ -134,7 +136,7 @@
                         <li><span class="sp">Воск и восковые ретенции <i class="ic-arrow-down-white"></i></span></li>
                     </ul>
                         
-                    <a href="#" class="btn btn-basket pull-right"><i class="ic-basket"></i> Корзина</a>
+                    <a href="#" class="btn btn-basket pull-right"><i class="ic-basket"></i><span class="hidden-xss">Корзина</span></a>
                 </div>
             </div>
         </div>
@@ -143,7 +145,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="sorting">
-                        <label for="">Сортировать по</label>
+                        <label for="" class="hidden-xss">Сортировать по</label>
                         <select>
                             <option value="Популярности">Популярности</option>
                             <option value="По рейтингу">рейтингу</option>
@@ -387,7 +389,7 @@
             <div class="footer__top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
                             <h4 class="footer__title"><a href="#">корпоративный сайт  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul class="list-unstyled">
@@ -399,7 +401,7 @@
                                 </ul>
                             </nav>
                         </div> 
-                        <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
                             <h4 class="footer__title"><a href="#">Интернет-магазин  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul class="list-unstyled">
@@ -411,7 +413,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
                             <h4 class="footer__title"><a href="#">Личный кабинет  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul  class="list-unstyled">
@@ -422,7 +424,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6 col-xss-12">
                             <h4 class="footer__title">Остались вопросы?</h4>
                             <p class="footer__phone">8 800 123-45-67</p>
                             <nav class="footer__nav">
@@ -464,7 +466,7 @@
     <!--  Стилизованый селект -->
     <script type="text/javascript" src="js/cusel-min-2.5.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function(event){
             /* select style */
             var params = {
                 changedEl: "select",
@@ -474,9 +476,22 @@
             cuSel(params);
 
 
-            $('.close-menu').click(function(event) {
+            $('.close-menu').click(function(event){
                 $('.panel-menu').slideToggle(400);
             });
+
+            $('.h-search__link').click(function(event) {
+                $('#h-search').animate({
+                    top: '20px'
+                    },400);
+            });
+
+            $('.h-search__close').click(function(event) {
+                $('#h-search').animate({
+                    top: '-90px'
+                    },400);
+            });
+
         });
     </script>
    

@@ -19,6 +19,28 @@ a:hover,
 a:focus {color: #FF020A; text-decoration: none;}
 :focus {outline: none;}
 .relative {position: relative;}
+
+@media screen and (max-width: 479px) {
+
+    .hidden-xss{
+        display: none
+    }
+    
+    .col-xss-6{
+        width: 50%;
+    }
+
+    .col-xss-3{
+        width: 25%;
+    }
+
+    .col-xss-12{
+        width: 100%;
+        float: none;
+    }
+}
+
+
 i[class*="ic-"] {
     display: inline-block;
     vertical-align: middle;
@@ -174,8 +196,14 @@ input[type="radio"]:checked + label:before {
     .h-nav-tabs a.active:before{
         bottom: -7px;
     }
-
 }
+
+@media screen and (max-width: 479px) {
+    .h-panel{
+        padding: 0 5px;
+    }
+}
+
 
 .header-bottom {
     background: #FFF;
@@ -183,6 +211,7 @@ input[type="radio"]:checked + label:before {
     border-top: 1px solid #E8ECF2;
 }
 
+/* Поиск в шапке*/
 #h-search {
     position: relative;
     max-width: 524px; 
@@ -195,7 +224,11 @@ input[type="radio"]:checked + label:before {
     font-size: 14px;
     color: #78828C;
     border: 2px solid #BDC4C9;
-    border-radius: 15px;
+    -webkit-webkit-border-radius: 15px;
+       -moz-webkit-border-radius: 15px;
+        -ms-webkit-border-radius: 15px;
+         -o-webkit-border-radius: 15px;
+                   border-radius: 15px;
 }
 #h-search input[type="submit"] {
     position: absolute;
@@ -206,6 +239,26 @@ input[type="radio"]:checked + label:before {
     border: none;
     background: transparent url(../img/h-search.png) no-repeat center;
 }
+
+.h-search__link{
+    display: none;
+    height: 47px;
+    border: 1px solid #eee;
+    -webkit-webkit-border-radius: 5px;
+       -moz-webkit-border-radius: 5px;
+        -ms-webkit-border-radius: 5px;
+         -o-webkit-border-radius: 5px;
+                   border-radius: 5px;
+
+    background: transparent url(../img/h-search.png) no-repeat center;
+    
+}
+
+.h-search__close{
+    display: none;
+}
+
+/* Телефон в шапке*/
 .h-phone {float: right; margin-top: 10px;}
 .h-phone > a {
     display: block;
@@ -242,6 +295,52 @@ input[type="radio"]:checked + label:before {
     .h-phone span{
         display: none;
     }
+}
+
+@media screen and (max-width: 479px){
+
+    .logo{
+        margin-top: 9px;
+    }
+    
+    #h-search{
+        position: fixed;
+        top:-90px;
+        left: 10px;
+        right: 10px;
+        z-index: 999;
+    }
+
+    .h-search__link{
+        display: block;
+        margin-right: -15px;
+        margin-left: 15px;
+    }
+    
+    .h-search__close{
+        position: absolute;
+        top: -10px;
+        right: 0;
+        display: block;
+        height: 20px;
+        width: 20px;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #fff;
+        background: #333;
+        -webkit-border-radius: 2px ;
+           -moz-border-radius: 2px ;
+            -ms-border-radius: 2px ;
+             -o-border-radius: 2px ;
+                border-radius: 2px ;
+    }
+
+
+    .h-phone{
+        margin-top: 0;
+    }
+
 }
 
 /* dropdown-menu */
@@ -564,7 +663,17 @@ input[type="radio"]:checked + label:before {
         font-size: 16px;
         font-weight: bold;
     }
+}
 
+@media screen and (max-width: 479px) {
+    .panel .btn-menu{
+        width: auto;
+        padding: 14px 41px 14px 50px;
+    }
+
+    .btn-basket i.ic-basket{
+        margin-right: 0;
+    }
 }
 
 
@@ -775,6 +884,12 @@ input[type="radio"]:checked + label:before {
     .sidebar-wrapper {background: #FFF;}
 } 
 
+@media screen and (max-width: 479px){
+    .main-title{
+        font-size: 18px;
+    }
+}
+
 
 
 
@@ -862,8 +977,25 @@ input[type="radio"]:checked + label:before {
     }
 }
 
+@media screen and (max-width: 767px) {
 
+    .gift{
+        float: left;
+    }
 
+    .subscription form input[type="text"] {
+
+        min-width: auto;
+        width: 60%;
+    }
+
+    .subscription form input[type="submit"] {
+
+        width: 40%;
+    }
+}
+
+/* Верхний футер*/
 
 .footer__top {
     padding: 65px 0 45px;
@@ -931,6 +1063,12 @@ h5.footer__title {font-size: 13px; text-transform: none;}
     font-size: 11px;
     font-weight: 400;
     line-height: 20px;
+}
+
+@media screen and (max-width: 479px){
+    .footer__top{
+        text-align: center;
+    }
 }
 
 /* Ползунок -----------------------------
