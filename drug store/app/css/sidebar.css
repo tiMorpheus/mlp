@@ -35,7 +35,6 @@
   -moz-user-select: -moz-none;
   user-select: none;
   border-left: none;
-
   -webkit-transform: translate3d(-275px, 0px, 0px);
   transform: translate3d(-275px, 0px, 0px);
 }
@@ -128,7 +127,7 @@
   z-index: 1032;
 }
 .sidebar-wrapper.sidebar-default {
-
+  
 }
 .sidebar-wrapper.sidebar-default.sidebar-open,
 .sidebar-wrapper.sidebar-default.sidebar-dragging {
@@ -146,7 +145,8 @@
   border-top-color: #eeeeee;
 }
 .sidebar-wrapper.sidebar-default .sidebar-item > a {
-
+  color: #222222;
+  background-color: #ffffff;
 }
 .sidebar-wrapper.sidebar-default .sidebar-item > a:hover,
 .sidebar-wrapper.sidebar-default .sidebar-item > a:focus {
@@ -304,7 +304,7 @@
     position: absolute !important;
     top: 0;
     overflow: hidden;
-    bottom: 0;
+    bottom: auto;
     float: none;
     -ms-touch-action: none;
   }
