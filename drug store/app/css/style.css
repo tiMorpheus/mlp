@@ -165,16 +165,16 @@ input[type="radio"]:checked + label:before {
     .logo {margin-top: 12px;}
     .logo img {max-width: 100%; height: auto;}
 }
-
 @media screen and (max-width: 767px) {
-    .h-nav {padding: 5px;}
+    .h-nav {padding: 10px;}
     .h-nav a {margin-right: 5px; font-size: 11px;}
     .h-nav-tabs a.active:after{
         bottom: -9px;
     }
     .h-nav-tabs a.active:before{
-        bottom: -6px;
+        bottom: -7px;
     }
+
 }
 
 .header-bottom {
@@ -185,7 +185,7 @@ input[type="radio"]:checked + label:before {
 
 #h-search {
     position: relative;
-    max-width: 524px;
+    max-width: 524px; 
     margin-top: 12px;
 }
 #h-search input[type="text"] {
@@ -224,6 +224,24 @@ input[type="radio"]:checked + label:before {
     font-weight: 800;
     font-size: 20px;
     color: #464446;
+}
+
+@media screen and (max-width: 767px){
+
+    .h-phone{
+        float: none;
+    }
+    .h-phone > a{
+        padding-left: 0;
+        height: 47px;
+        background-position: center;
+        border: 1px solid #eee;
+        border-radius: 5px; 
+    }
+    .h-phone small,
+    .h-phone span{
+        display: none;
+    }
 }
 
 /* dropdown-menu */
@@ -266,7 +284,13 @@ input[type="radio"]:checked + label:before {
     border-bottom: 5px solid #E8ECF2;
 }
 
-
+@media screen and (max-width: 767px) {
+    .arrow:after,
+    .arrow:before{
+        left: auto;
+        right: 15px;
+    } 
+}
 
 .panel {
     padding: 5px 0;
@@ -290,7 +314,7 @@ input[type="radio"]:checked + label:before {
        -moz-box-shadow: 2px 2px 4px rgba(100,15,15, 0.44);
          -o-box-shadow: 2px 2px 4px rgba(100,15,15, 0.44);
             box-shadow: 2px 2px 4px rgba(100,15,15, 0.44);
-
+    
 }
 
 .panel .btn-menu {
@@ -300,7 +324,7 @@ input[type="radio"]:checked + label:before {
 .panel .btn-menu i[class*="ic"] {
     position: absolute;
     top: 50%;
-
+    
 }
 .panel .btn-menu .ic-list {
     left: 20px;
@@ -395,7 +419,7 @@ input[type="radio"]:checked + label:before {
        -moz-box-shadow: 4px 8px 10px rgba(217,223,231, 0.6);
          -o-box-shadow: 4px 8px 10px rgba(217,223,231, 0.6);
             box-shadow: 4px 8px 10px rgba(217,223,231, 0.6);
-
+       
 }
 .panel-menu li:hover > ul {display: block;}
 
@@ -419,12 +443,16 @@ input[type="radio"]:checked + label:before {
 .panel-menu li.divider {
     margin: 9px 0;
     border-bottom: 1px solid #E8ECF2;
-
+    
 }
 .panel-menu li.sale a {
     border-left: none;
     padding-left: 50px;
     background: url(../img/sale.png) no-repeat 20px center;
+}
+
+.panel-menu li.close-menu{
+    display: none;
 }
 
 .sp {
@@ -474,11 +502,69 @@ input[type="radio"]:checked + label:before {
     .panel .btn-menu, .panel-menu {width: 260px;}
     .sp {width: 255px;}
     .panel-menu a {font-size: 12px;}
-}
+} 
 
 @media screen and (max-width: 991px) {
     .panel {padding: 5px 10px;}
     .sp {display: none;}
+} 
+
+@media screen and (max-width: 767px) {
+
+    .panel-menu{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: auto;
+        
+        margin-top: 0;
+        padding-top: 0;
+        -webkit-border-radius:0;
+               border-radius: 0;
+
+        overflow-y: auto;
+    }
+    .panel-menu a{
+        padding: 8px 20px 8px 17px;
+    }
+
+    .panel-menu ul{
+        position: static;
+        height: auto;
+        width: auto;
+        padding: 10px 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        background: #eee;
+    }
+
+    .panel-menu ul a{
+        padding-left: 25px;
+    }
+
+    .panel-menu ul ul{
+        background: #ccc;
+    }
+
+    .panel-menu ul ul a{
+        padding-left: 35px;
+    }
+
+    .panel-menu li.close-menu{
+        display: block;
+    }
+
+    .panel-menu li.close-menu a{
+        background: #555;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
 }
 
 
@@ -687,7 +773,7 @@ input[type="radio"]:checked + label:before {
     .sorting {float: none; margin-top: 0;}
     .sidebar-toggle {top: -55px}
     .sidebar-wrapper {background: #FFF;}
-}
+} 
 
 
 
@@ -760,6 +846,20 @@ input[type="radio"]:checked + label:before {
         text-align: left;
     }
     .gift {margin-right: 10px; float: left;}
+}
+
+@media screen and (max-width: 767px) {
+    .subscription__title {
+        margin-bottom: 15px;
+    }
+    .gift{float: none;}
+
+    .subscription form input[type="text"]{
+        width: 70%;
+    }
+    .subscription form input[type="submit"]{
+        width: 30%;
+    }
 }
 
 
@@ -916,7 +1016,7 @@ h5.footer__title {font-size: 13px; text-transform: none;}
 .ui-widget-content {
     background: #AEB4BA;
     color: #222222;
-
+    
 }
 .ui-widget-content a {color: #222222;}
 
@@ -938,11 +1038,11 @@ h5.footer__title {font-size: 13px; text-transform: none;}
     color: #555555;
     width: 0;
     height: 0;
-    border-bottom: 8px solid #494E51;
+    border-bottom: 8px solid #494E51; 
     border-left: 8px solid transparent;
 }
 #slider-range span:last-child {
-    border-bottom: 8px solid #494E51;
+    border-bottom: 8px solid #494E51; 
     border-right: 8px solid transparent;
     border-left: none;
     margin-left: 0;
@@ -994,13 +1094,13 @@ h5.footer__title {font-size: 13px; text-transform: none;}
     background: url(../img/select-right.png) no-repeat center;
 }
 /* Текст в селекте */
-.cuselText {
+.cuselText { 
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     height: 35px;
-    padding: 0 5px 0 15px;
+    padding: 0 5px 0 15px; 
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: 600;
@@ -1011,10 +1111,10 @@ h5.footer__title {font-size: 13px; text-transform: none;}
 * html .cuselText {height: 30px;}
 
 /* Оформление пунктов списка */
-.cusel span {
+.cusel span { 
     display: block;
-    padding: 5px 15px;
-    font-size: 14px;
+    padding: 5px 15px; 
+    font-size: 14px; 
     color: #333;
     zoom: 1;
     cursor: pointer;
@@ -1078,7 +1178,7 @@ h5.footer__title {font-size: 13px; text-transform: none;}
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
-
+    
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -1145,7 +1245,7 @@ h5.footer__title {font-size: 13px; text-transform: none;}
     width: 0 !important;
     height: 0;
     cursor: pointer;
-    overflow: hidden;
+    overflow: hidden;   
 }
 
 /* Стрелка внизу для скролла */

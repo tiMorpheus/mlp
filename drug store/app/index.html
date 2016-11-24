@@ -48,18 +48,18 @@
             <div class="header-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-3">
+                        <div class="col-lg-3 col-md-4 col-sm-3 col-xs-4">
                             <div class="logo">
                                 <a href="/"><img src="img/logo.png" height="59" width="238" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-5 col-sm-5">
+                        <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6">
                             <form action="#" id="h-search">
                                 <input type="text" value="Поиск по сайту"/>
                                 <input type="submit" value="" />
                             </form>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-2">
                             <div class="dropdown h-phone">
                               <a data-toggle="dropdown" href="#">
                                   <small>Бесплатно по всей России</small>
@@ -83,6 +83,7 @@
                         <li>
                             <a href="#" class="btn btn-menu"><i class="ic-list"></i>Каталог товаров <i class="ic-arrow-down-white"></i></a>
                             <ul class="panel-menu arrow" style="display: none;">
+                                <li class="close-menu"><a href="#">&larr;</a></li>
                                 <li><a href="#">Анестезия <i class="ic-arrow-right"></i></a></li>
                                 <li><a href="#">Хирургическая  Стоматология <i class="ic-arrow-right"></i></a></li>
                                 <li><a href="#">Реставрация <i class="ic-arrow-right"></i></a></li>
@@ -386,7 +387,7 @@
             <div class="footer__top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <h4 class="footer__title"><a href="#">корпоративный сайт  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul class="list-unstyled">
@@ -397,8 +398,8 @@
                                     <li><a href="#">Вакансии</a></li>
                                 </ul>
                             </nav>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
+                        </div> 
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <h4 class="footer__title"><a href="#">Интернет-магазин  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul class="list-unstyled">
@@ -410,7 +411,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <h4 class="footer__title"><a href="#">Личный кабинет  &#8250;</a></h4>
                             <nav class="footer__nav">
                                 <ul  class="list-unstyled">
@@ -421,7 +422,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
                             <h4 class="footer__title">Остались вопросы?</h4>
                             <p class="footer__phone">8 800 123-45-67</p>
                             <nav class="footer__nav">
@@ -471,9 +472,14 @@
                 scrollArrows: true
             }
             cuSel(params);
+
+
+            $('.close-menu').click(function(event) {
+                $('.panel-menu').slideToggle(400);
+            });
         });
     </script>
    
-    <script type="text/javascript" src="js/my.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>
